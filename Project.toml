@@ -1,0 +1,15 @@
+name = "YARAJulia"
+uuid = "27570fdf-efcc-4954-a6ce-3ad4c7f59027"
+version = "0.1.0"
+authors = ["bad-antics"]
+
+[deps]
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
+
+[compat]
+julia = "1.6"
